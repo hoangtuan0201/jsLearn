@@ -5,27 +5,52 @@
 	<title>Title</title>
 </head>
 <body>
-
-
-
-
 	<script>
-		const product2 = {
-            name: 'shirt',
-			'delivery-time':'1 day',
-			rating:{ //nested object
-                stars: 4.5,
-				count: 87,
-			}
-		};
-        console.log(product2.name);
-        console.log(product2['name']) // dung cach nay de lay property an toan hon vi
-		// truy cap property bang string
-		console.log(product2['delivery-time']);
-        // which one should we use?
-		// use dot notation by default
-		// for properties that dont work use bracket notation
+		// const product2 = {
+        //     name: 'shirt',
+		// 	'delivery-time':'1 day',
+		// 	rating:{ //nested object
+        //         stars: 4.5,
+		// 		count: 87,
+		// 	}
+		// };
+        // console.log(product2.name);
+        // console.log(product2['name']) // dung cach nay de lay property an toan hon vi
+		// // truy cap property bang string
+		// console.log(product2['delivery-time']);
+        // // which one should we use?
+		// // use dot notation by default
+		// // for properties that dont work use bracket notation
 
+		console.log('hello'.length); // property called
+		console.log('hello'.toUpperCase()) // method called
+ 		// auto boxing wrap string
+		const object1 = {
+             message: 'hello'
+		};
+        const object2 = object1; // we copy the reference of object 1 to object 2
+        object1.message = 'goodjob';
+        console.log(object1); // ta co the thay doi object 1 mac du no la const
+		// boi vi object ko luu vao bien ma luu vao memory va tao ra 1 cai refence point to memory location
+		console.log(object2);
+		// ta không the compare 2 object voi vi no compare 2 references chu ko compare values trong object
+
+
+		const object3 = {
+            message: 'good job',
+			price:1000,
+			// method: function function1() {
+            //     console.log('long method has been called');
+			// },
+            method() {
+                console.log('short method has been called');
+			}
+		}
+        object3.method();
+		// const message = object3.message;
+		const { message,price } = object3
+		console.log(message);
+		console.log(price); // property destructuring
 
 	</script>
 
