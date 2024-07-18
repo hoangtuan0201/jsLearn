@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+
+
+
+
+	<script>
+		const product2 = {
+            name: 'shirt',
+			'delivery-time':'1 day',
+			rating:{ //nested object
+                stars: 4.5,
+				count: 87,
+			}
+		};
+        console.log(product2.name);
+        console.log(product2['name']) // dung cach nay de lay property an toan hon vi
+		// truy cap property bang string
+		console.log(product2['delivery-time']);
+        // which one should we use?
+		// use dot notation by default
+		// for properties that dont work use bracket notation
+
+
+	</script>
+
+</body>
+</html>

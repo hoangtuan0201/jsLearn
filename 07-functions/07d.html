@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>function exercises</title>
+	<style>
+		body {
+			background-color:grey;
+		}
+	</style>
+</head>
+<body>
+
+    <script>
+		function convertToF(celsius) {
+            let f = (celsius * 9/5) + 32;
+			return `${f} degrees`;
+		}
+        function convertToC(fahrenheit) {
+            let c = (fahrenheit -32)*5/9;
+			return `${c} degrees`;
+		}
+        function convertTemperature(degrees, unit) {
+            unit = unit.toUpperCase();
+            if (unit ==="C") {
+                const result = convertToF(degrees);
+                return `${result}F`;
+			}else if (unit==="F") {
+                const result = convertToC(degrees);
+                return `${result}C`;
+			}else {
+                return 0;
+			}
+		}
+
+        console.log(convertTemperature(25, "c"));
+        console.log(convertTemperature(86, 'f'))
+	</script>
+
+</body>
+</html>

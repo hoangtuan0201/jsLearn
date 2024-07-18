@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>coin flip</title>
+	<style>
+
+	</style>
+</head>
+<body>
+
+
+
+	<script>
+		let result = ``;
+        const guess = 'heads';
+		const flip_coin = Math.random();
+        if (flip_coin <= 1/2 && flip_coin >0) {
+            result = `tails`;
+		}else {
+            result = `heads`;
+		}
+        if (result === guess) {
+            alert(`you win`);
+		} else {
+            alert(`you lose`);
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>booleans</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        b {
+            font-size: 24px;
+        }
+
+        .rock-button, .paper-button, .scissor-button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+            transition: background-color 0.3s ease;
+        }
+
+        .rock-button:hover, .paper-button:hover, .scissor-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <b>Rock Paper Scissors</b>
+    <p>
+        <button class= 'rock-button' onclick="
+            let computer_move = '';
+
+            const random_number = Math.random();
+            if (random_number>= 0 && random_number <(1/3)) {
+                computer_move = `Rock`;
+            } else if (random_number >= (1/3) && random_number < (2/3)) {
+                computer_move = `Paper`;
+            } else if (random_number >= (2/3) && random_number < 1) {
+                computer_move = `Scissors`;
+            }
+            let result = ``;
+            if (computer_move === `Rock`) {
+                result = `Tie`;
+            } else if (computer_move === `Paper`) {
+                result = `lose`;
+            } else if (computer_move === `Scissors`) {
+                result = `win`;
+            }
+            alert(`You picked Rock. Computer picked ${computer_move} you ${result}`);
+            ">
+            Rock
+        </button>
+
+        <button class ="paper-button" onclick="
+            let computer_move = ``
+            const random_number = Math.random();
+            if (random_number >= 0 && random_number <(1/3)) {
+                computer_move = 'Rock';
+            } else if (random_number  >= (1/3) && random_number < (2/3)) {
+                computer_move = `Paper`;
+            } else if (random_number >= (2/3) && random_number < 1) {
+                computer_move = `Scissors`;
+            }
+            let result = ``;
+            if (computer_move === 'Rock') {
+                result = 'win';
+            } else if (computer_move === 'Paper') {
+                result = `Tie`;
+            } else if (computer_move === 'Scissors') {
+                result = `lose`;
+            }
+            alert(`You picked Paper. Computer picked ${computer_move} you ${result}`);
+">
+            Paper
+        </button>
+
+        <button class ="scissor-button" onclick="
+            let computer_move = ``;
+            const random_number = Math.random();
+            if (random_number >=0 && random_number <(1/3)) {
+                computer_move = `Rock`;
+            } else if (random_number  >= (1/3) && random_number < (2/3)) {
+                computer_move = `Paper`;
+            } else if (random_number >= (2/3) && random_number < 1) {
+                computer_move = `Scissors`;
+            }
+
+            let result = ``;
+            if (computer_move === 'Rock') {
+                result = `lose`;
+            } else if (computer_move === 'Paper') {
+                result = `win`;
+            } else if (computer_move === 'Scissors') {
+                result = `Tie`;
+            }
+            alert(`You picked Scissors. Computer picked ${computer_move} you ${result}`)
+
+
+">
+            Scissors
+        </button>
+    </p>
+    <script>
+
+    </script>
+</body>
+</html>
