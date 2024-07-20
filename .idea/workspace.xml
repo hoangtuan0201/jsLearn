@@ -4,35 +4,78 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c9a09e5-b00e-4cb4-9b86-0f3b010b159a" name="Changes" comment="local storage">
+    <list default="true" id="5c9a09e5-b00e-4cb4-9b86-0f3b010b159a" name="Changes" comment="null, auto-boxing, references, destructing, shorthand property, shorthand method">
+      <change afterPath="$PROJECT_DIR$/08objects/08exercises/8a,b,c,d.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DS and Algorithms/graph.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DS and Algorithms/graph.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08objects/08.object.html" beforeDir="false" afterPath="$PROJECT_DIR$/08objects/08.object.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;hoangtuan0201&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/hoangtuan0201/jsLearn.git&quot;,
+    &quot;accountId&quot;: &quot;f85666d3-bd80-4cef-b399-131abe809ffd&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2jPS1aOMik4G5CIYFMyW6JIllJS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/js",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Angular Template",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/js&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="Node.js.graph.js (1)">
+    <configuration name="graph.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="graph.js" working-dir="$PROJECT_DIR$/DS and Algorithms">
+      <method v="2" />
+    </configuration>
+    <configuration name="graph.js" type="NodeJSConfigurationType" temporary="true" application-parameters=" package.json" path-to-node="node" nameIsGenerated="true" node-parameters=" package.json" path-to-js-file="graph.js" working-dir="$PROJECT_DIR$/DS and Algorithms">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.graph.js (1)" />
+        <item itemvalue="Node.js.graph.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -43,12 +86,14 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2ecd45ee-df9d-4a7b-99f8-a86a9e638ba3" name="Changes" comment="" />
+      <changelist id="5c9a09e5-b00e-4cb4-9b86-0f3b010b159a" name="Changes" comment="null, auto-boxing, references, destructing, shorthand property, shorthand method" />
       <created>1721287005873</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721287005873</updated>
       <workItem from="1721287006672" duration="149000" />
+      <workItem from="1721308795900" duration="924000" />
+      <workItem from="1721464945775" duration="1860000" />
     </task>
     <task id="LOCAL-00001" summary="local storage">
       <option name="closed" value="true" />
@@ -58,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721303644623</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="null, auto-boxing, references, destructing, shorthand property, shorthand method">
+      <option name="closed" value="true" />
+      <created>1721306531346</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721306531346</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -67,6 +120,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="local storage" />
-    <option name="LAST_COMMIT_MESSAGE" value="local storage" />
+    <MESSAGE value="null, auto-boxing, references, destructing, shorthand property, shorthand method" />
+    <option name="LAST_COMMIT_MESSAGE" value="null, auto-boxing, references, destructing, shorthand property, shorthand method" />
   </component>
 </project>

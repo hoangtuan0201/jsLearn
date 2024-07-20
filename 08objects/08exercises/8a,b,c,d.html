@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+    <script>
+        const product1 = {
+          name: 'gloves',
+          price:2095,
+        };
+        product2 = {
+          name: 'ball',
+          price:1495,
+        }
+        //8d
+        function comparePrice(product1, product2) {
+          if (product1.price < product2.price) {
+            return `${product1.name} is cheaper`;
+          }else if (product2.price < product1.price) {
+            return `${product2.name} is cheaper`;
+          }else {
+            return 'invalid input'
+          }
+        }
+        console.log(comparePrice(product1, product2));
+
+
+        product1.price += 500
+        product1['delivery-time'] = '3 days';
+        console.log(product1.price);
+        console.log(product1['delivery-time']);
+    </script>
+</body>
+</html>
