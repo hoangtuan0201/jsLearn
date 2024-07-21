@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c9a09e5-b00e-4cb4-9b86-0f3b010b159a" name="Changes" comment="null, auto-boxing, references, destructing, shorthand property, shorthand method">
-      <change afterPath="$PROJECT_DIR$/08objects/08exercises/08i.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08objects/08exercises/8e,f,g.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08objects/08exercises/calculatorObject.html" afterDir="false" />
+    <list default="true" id="5c9a09e5-b00e-4cb4-9b86-0f3b010b159a" name="Changes" comment="exercises 8 Object">
+      <change afterPath="$PROJECT_DIR$/09-dom/09DOM.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08objects/08exercises/8a,b,c,d.html" beforeDir="false" afterPath="$PROJECT_DIR$/08objects/08exercises/8a,b,c,d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS and Algorithms/graph.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTTP Request" />
         <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
@@ -51,30 +50,51 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.08-rockpaperScissor.html.executor": "Debug",
     "JavaScript Debug.08i.html.executor": "Run",
+    "Node.js.graph.js.executor": "Run",
+    "Node.js.hell.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/js",
+    "last_opened_file_path": "C:/Users/tuan0/AppData/Roaming/JetBrains/WebStorm2024.1/consoles/db/NORTHWND.MDF",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlserver.localdb"
+    ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tuan0\AppData\Roaming\JetBrains\WebStorm2024.1\consoles\db" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.08-rockpaperScissor.html">
+    <configuration name="08-rockpaperScissor.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/js/08objects/08-rockpaperScissor.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="graph.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="graph.js" working-dir="$PROJECT_DIR$/DS and Algorithms">
       <method v="2" />
     </configuration>
-    <configuration name="graph.js" type="NodeJSConfigurationType" temporary="true" application-parameters=" package.json" path-to-node="node" nameIsGenerated="true" node-parameters=" package.json" path-to-js-file="graph.js" working-dir="$PROJECT_DIR$/DS and Algorithms">
+    <configuration name="graph.js" type="NodeJSConfigurationType" temporary="true" application-parameters=" package.json" path-to-node="$APPLICATION_CONFIG_DIR$/node/node-v18.15.0-win-x64/node" nameIsGenerated="true" path-to-js-file="graph.js" working-dir="$PROJECT_DIR$/DS and Algorithms">
+      <method v="2" />
+    </configuration>
+    <configuration name="hell.js" type="NodeJSConfigurationType" temporary="true" path-to-node="$APPLICATION_CONFIG_DIR$/node/node-v18.15.0-win-x64/node" nameIsGenerated="true" path-to-js-file="hell.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.graph.js (1)" />
+        <item itemvalue="JavaScript Debug.08-rockpaperScissor.html" />
+        <item itemvalue="Node.js.hell.js" />
         <item itemvalue="Node.js.graph.js" />
+        <item itemvalue="Node.js.graph.js (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -97,6 +117,9 @@
       <workItem from="1721308795900" duration="924000" />
       <workItem from="1721464945775" duration="1860000" />
       <workItem from="1721477446449" duration="5691000" />
+      <workItem from="1721496677417" duration="552000" />
+      <workItem from="1721542086461" duration="878000" />
+      <workItem from="1721556754154" duration="4277000" />
     </task>
     <task id="LOCAL-00001" summary="local storage">
       <option name="closed" value="true" />
@@ -122,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721477537497</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="exercises 8 Object">
+      <option name="closed" value="true" />
+      <created>1721496746958</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721496746958</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +163,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="local storage" />
     <MESSAGE value="null, auto-boxing, references, destructing, shorthand property, shorthand method" />
-    <option name="LAST_COMMIT_MESSAGE" value="null, auto-boxing, references, destructing, shorthand property, shorthand method" />
+    <MESSAGE value="exercises 8 Object" />
+    <option name="LAST_COMMIT_MESSAGE" value="exercises 8 Object" />
   </component>
 </project>
