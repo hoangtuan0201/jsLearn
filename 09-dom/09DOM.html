@@ -10,10 +10,20 @@
             justify-content: center;
             align-items: center;
 		}
+		.container1 {
+			border: 2px solid;
+			color: green;
+		}
+		button {
+			margin: 20px 10px 20px 10px;
+		}
 	</style>
 </head>
 <body>
-	<button> con cac </button>
+	<div class="container1">
+		<button> con cac </button>
+		<button class="second-button">second button</button>
+	</div>
 
 	<script>
 
@@ -22,7 +32,7 @@
 		// document.body.innerHTML = '<button> con chim </button>';
 		console.log(document.querySelector('button').innerHTML);
         document.querySelector('button').innerHTML = 'changed'; // change value in button
-
+		document.querySelector('.second-button').innerHTML = 'CHANGED';
 
 
 	</script>

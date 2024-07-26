@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c9a09e5-b00e-4cb4-9b86-0f3b010b159a" name="Changes" comment="exercises 8 Object">
-      <change afterPath="$PROJECT_DIR$/09-dom/09DOM.html" afterDir="false" />
+    <list default="true" id="5c9a09e5-b00e-4cb4-9b86-0f3b010b159a" name="Changes" comment="DOM 10% learning progress">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DS and Algorithms/graph.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-dom/09DOM.html" beforeDir="false" afterPath="$PROJECT_DIR$/09-dom/09DOM.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -119,7 +118,8 @@
       <workItem from="1721477446449" duration="5691000" />
       <workItem from="1721496677417" duration="552000" />
       <workItem from="1721542086461" duration="878000" />
-      <workItem from="1721556754154" duration="4277000" />
+      <workItem from="1721556754154" duration="4573000" />
+      <workItem from="1721983182270" duration="658000" />
     </task>
     <task id="LOCAL-00001" summary="local storage">
       <option name="closed" value="true" />
@@ -153,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721496746958</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="DOM 10% learning progress">
+      <option name="closed" value="true" />
+      <created>1721562320901</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721562320901</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +172,7 @@
     <MESSAGE value="local storage" />
     <MESSAGE value="null, auto-boxing, references, destructing, shorthand property, shorthand method" />
     <MESSAGE value="exercises 8 Object" />
-    <option name="LAST_COMMIT_MESSAGE" value="exercises 8 Object" />
+    <MESSAGE value="DOM 10% learning progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="DOM 10% learning progress" />
   </component>
 </project>
