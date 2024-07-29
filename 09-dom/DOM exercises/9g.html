@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DOM 9G</title>
+	<style>
+        body {
+            background-color: #5f5f5f;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        div {
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        p {
+            font-size: 24px;
+        }
+	</style>
+</head>
+<body>
+<div class="container1">
+	<p>YouTube Subscribe Button</p>
+	<button class="subscribe" onclick="
+		 	subscribe(); //subscribe and subscribed
+		">Subscribe</button>
+</div>
+
+<div class="container2">
+	<p> Rock Paper Scissors</p>
+	<a href="rock-paper-scisscors.html">Click here</a>
+</div>
+
+<div class="container3">
+	<p>Amazon Shipping Calculator</p>
+	<p>Orders under $40= +$10 shipping</p>
+	<p>Orders over $40 = FREE shipping</p>
+	<input placeholder="Cost of order" class="js-cost-input" onkeydown="listenEnter(event)
+
+		// if you want to count shipping cost constantly use oninput">
+	<button class="calculate-shipping" onclick="calculateTotal()">
+		Calculate Shipping
+	</button>
+	<p class="total-cost"></p>
+</div>
+
+<script>
+    // String(25) converts number to string
+    // Number('25')) converts string to number
+    console.log('25'-5);
+    console.log('25'+5); // always do math using **numnber**
+
+    window.document
+
+
+    function listenEnter(event) {
+        if (event.key ==='Enter') { // event should be parameter in function call
+            calculateTotal();
+        }
+    }
+    function calculateTotal() {
+        const costInput = document.querySelector('.js-cost-input');
+        let cost = Number(costInput.value);
+        if (cost <40) {
+            cost = Math.round(((cost+10)*100))/100;
+            document.querySelector('.total-cost').innerHTML = `$${cost}`
+        }else {
+            document.querySelector('.total-cost').innerHTML =`$${cost} and FREE SHIPPING`;
+        }
+
+    }
+    function subscribe() {
+        const buttonElement = document.querySelector('.subscribe');
+        if (buttonElement.innerHTML === 'Subscribe') {
+            buttonElement.innerHTML = 'Subscribed';
+        }else {
+            buttonElement.innerHTML = 'Subscribe'
+        }
+    }
+</script>
+
+</body>
+</html>

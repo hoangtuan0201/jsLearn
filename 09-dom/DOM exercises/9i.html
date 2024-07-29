@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cart Quantity</title>
+		<style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: gray;
+                text-align: center;
+                padding: 20px;
+                color: #333;
+            }
+            button {
+                background-color: #FF9900;
+                color: black;
+                border: none;
+                padding: 10px 20px;
+                margin: 5px;
+                font-size: 16px;
+                cursor: pointer;
+                border-radius: 5px;
+                transition: background-color 0.3s ease;
+            }
+            button:hover {
+                background-color: #0056b3;
+            }
+            button:active {
+                background-color: #004494;
+            }
+            button:focus {
+                outline: none;
+            }
+		</style>
+	</head>
+
+	<body>
+		<button onclick="
+			  updateCartQuantity(0)
+			">Show Quantity</button>
+
+		<button onclick="
+			  updateCartQuantity(1);
+			">Add to Cart</button>
+
+		<button onclick="
+			  updateCartQuantity(2);
+			">+2</button>
+
+		<button onclick="
+			  updateCartQuantity(3);
+			">+3</button>
+
+		<button onclick="
+			  updateCartQuantity(4);
+			">+4</button>
+
+		<button onclick="
+			  updateCartQuantity(5);
+			">+5</button>
+
+		<!-- vvv This code was changed. vvv -->
+		<button onclick="
+			  updateCartQuantity(-1);
+			">Remove from cart</button>
+
+		<button onclick="
+			  updateCartQuantity(-2);
+			">-2</button>
+
+		<button onclick="
+			  updateCartQuantity(-3);
+			">-3</button>
+		<!-- ^^^ This code was changed. ^^^ -->
+
+		<button onclick="
+			  cartQuantity = 0;
+			  console.log('Cart was reset.');
+			  console.log(`Cart quantity: ${cartQuantity}`);
+			">Reset Cart</button>
+		<p class="display-cart"></p>
+
+		<script>
+			let displayCart = document.querySelector('.display-cart');
+			let cartQuantity = 0;
+            displayCart.innerHTML = `Cart quantity: ${localStorage.getItem('cartQuantity')}`
+			//display local saved
+
+			function updateCartQuantity(values) {
+				if (cartQuantity + values < 0) {
+					alert('Not enough items in the cart');
+				} else{
+					cartQuantity = cartQuantity + values;
+					displayCart.innerHTML = `Cart quantity: ${cartQuantity}`;
+				}
+                localStorage.setItem('cartQuantity', cartQuantity);// local save
+			}
+		</script>
+	</body>
+</html>

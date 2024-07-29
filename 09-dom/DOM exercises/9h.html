@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>9h</title>
+	<style>
+		body {
+			text-align: center;
+			background-color: gray;
+		}
+
+	</style>
+</head>
+<body>
+	<input class="input-js" placeholder="writeanything it will display" onkeyup="display()">
+	<p class="display"></p>
+
+	<script>
+		function display() {
+            let input = document.querySelector('.input-js').value;
+			document.querySelector('.display').innerHTML = `${input}`;
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DOM</title>
+	<style>
+		body{
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            background-color: #5f5f5f;
+            color: white;
+		}
+	</style>
+</head>
+<body>
+	<button class="button1">9a</button>
+	<button class="button9b" onclick="
+		document.querySelector('.button9b').innerHTML = '9b done!';
+
+">9b</button>
+	<button class="heads" onclick="document.querySelector('.display-dice').innerHTML='You choose:tails'"> heads</button>
+
+	<button class="tails" onclick="document.querySelector('.display-dice').innerHTML='You choose:heads'">tails</button>
+	<p class="display-dice"></p>
+
+<!--	exercise D-->
+	<input class="input-name" placeholder="name" onkeydown="enterListener(event)">
+	<button class="submit-name" onclick="
+		displayName()">submit</button>
+	<p class="display-name"></p>
+
+
+
+	<script>
+		console.log(document.querySelector('.button1'));
+        //show name
+		function displayName() {
+            const name = document.querySelector('.input-name').value;
+            document.querySelector('.display-name').innerHTML = `Your name is: ${name}`;
+		}
+        // click enter to display name
+        function enterListener(event) {
+            if (event.key === 'Enter') {
+                displayName();
+            }
+		}
+
+	</script>
+</body>
+</html>
