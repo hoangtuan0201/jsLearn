@@ -12,11 +12,11 @@
 		}
         /* Basic styling for the calculator buttons */
         button {
-            color:white;
+            color:black;
             padding:5px 10px 5px 10px;
             font-size: 20px;
             margin:0 3px 0 3px;
-            background-color: black;
+            background-color: #FF9900;
             border: none;
         }
 
@@ -106,6 +106,7 @@
     </div>
 
 	<script>
+
 		let display = document.querySelector('.result-place');
         let calculation = '';
 
@@ -142,7 +143,7 @@
             display.innerHTML = '';
             localSave();
         }
-
+		// local save
         function localSave() {
             localStorage.setItem('calculation', calculation);
 		}

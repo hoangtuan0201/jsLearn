@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c9a09e5-b00e-4cb4-9b86-0f3b010b159a" name="Changes" comment="DOM project 100%">
+    <list default="true" id="5c9a09e5-b00e-4cb4-9b86-0f3b010b159a" name="Changes" comment="calculator project finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-dom/09DOM.html" beforeDir="false" afterPath="$PROJECT_DIR$/09-dom/09DOM.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/09-dom/DOM.project.html" beforeDir="false" afterPath="$PROJECT_DIR$/09-dom/DOM.project.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-dom/calculatorDom.html" beforeDir="false" afterPath="$PROJECT_DIR$/09-dom/calculatorDom.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +57,7 @@
     &quot;Node.js.hell.js.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tuan0/AppData/Roaming/JetBrains/WebStorm2024.1/consoles/db/NORTHWND.MDF&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/js/09-dom&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
@@ -72,6 +74,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\js\09-dom" />
       <recent name="C:\Users\tuan0\AppData\Roaming\JetBrains\WebStorm2024.1\consoles\db" />
     </key>
   </component>
@@ -122,7 +125,13 @@
       <workItem from="1721983182270" duration="10196000" />
       <workItem from="1722052790752" duration="605000" />
       <workItem from="1722075562270" duration="5263000" />
-      <workItem from="1722170973783" duration="713000" />
+      <workItem from="1722170973783" duration="3030000" />
+      <workItem from="1722176809756" duration="34000" />
+      <workItem from="1722176859916" duration="3000" />
+      <workItem from="1722177472547" duration="1000" />
+      <workItem from="1722178333711" duration="330000" />
+      <workItem from="1722254192125" duration="7222000" />
+      <workItem from="1722305543618" duration="313000" />
     </task>
     <task id="LOCAL-00001" summary="local storage">
       <option name="closed" value="true" />
@@ -196,7 +205,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722082498131</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="DOM, document.querySelector, innerHTML, 3 projects using the DOM, onkeydown, string and window object">
+      <option name="closed" value="true" />
+      <created>1722171738522</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1722171738522</updated>
+    </task>
+    <task id="LOCAL-00011" summary="calculator project finished">
+      <option name="closed" value="true" />
+      <created>1722261817789</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1722261817789</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +236,9 @@
     <MESSAGE value="DOM project subcribe button" />
     <MESSAGE value="rock paper scissors" />
     <MESSAGE value="DOM project 100%" />
-    <option name="LAST_COMMIT_MESSAGE" value="DOM project 100%" />
+    <MESSAGE value="DOM, document.querySelector, innerHTML, 3 projects using the DOM, onkeydown, string and window object" />
+    <MESSAGE value="exercises 9a,b,c,d" />
+    <MESSAGE value="calculator project finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="calculator project finished" />
   </component>
 </project>
