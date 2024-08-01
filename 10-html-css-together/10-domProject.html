@@ -8,14 +8,42 @@
             background-color: #5f5f5f;
 			font-family: Arial, sans-serif;
             color: black;
+            font-size: 20px;
         }
 		div {
-			margin-top: 40px;
-			margin-bottom: 40px;
+			margin-top: 55px;
+			margin-bottom: 55px;
 		}
-        p {
-            font-size: 24px;
-        }
+
+		.subscribe{
+			font-weight: bold;
+			background-color: black;
+			color:white;
+			padding:10px 15px 10px 15px;
+			border: none;
+			border-radius: 35px;
+			cursor: pointer;
+		}
+		.is-subscribed {
+			background-color: rgb(240,240,240);
+			color: black;
+		}
+		.js-cost-input {
+			padding:10px;
+			font-size:15px
+		}
+
+		.calculate-shipping {
+			background-color:green;
+			color: white;
+			padding: 12px 15px 12px 15px;
+			border: none;
+			font-size:15px;
+		}
+		.calculate-shipping:hover , .subscribe:hover {
+			opacity:0.6;
+		}
+
 	</style>
 </head>
 <body>
@@ -26,10 +54,7 @@
 		">Subscribe</button>
 	</div>
 
-	<div class="container2">
-		<p> Rock Paper Scissors</p>
-		<a href="rock-paper-scisscors.html">Click here</a>
-    </div>
+
 
 	<div class="container3">
         <p>Amazon Shipping Calculator</p>
@@ -39,10 +64,14 @@
 
 		// if you want to count shipping cost constantly use oninput">
 			<button class="calculate-shipping" onclick="calculateTotal()">
-				Calculate Shipping
+				Calculate
 			</button>
 		<p class="total-cost"></p>
     </div>
+	<div class="container2">
+		<p> Rock Paper Scissors</p>
+		<a href="rock-paper-scisscors.html">Click here</a>
+	</div>
 
 	<script>
 		// String(25) converts number to string
@@ -57,27 +86,24 @@
                 calculateTotal();
             }
 		}
-		function calculateTotal() {
+        function calculateTotal() {
             const costInput = document.querySelector('.js-cost-input');
             let cost = Number(costInput.value);
-            if (!Number.isInteger(Number(cost))) {
-                document.querySelector('.total-cost').innerHTML = 'Please enter a valid integer';
-                return;
-            }
-			if (cost <40) {
-                cost = cost+10;
+            if (cost <40) {
+                cost = Math.round(((cost+10)*100))/100;
                 document.querySelector('.total-cost').innerHTML = `$${cost}`
-			}else {
+            }else {
                 document.querySelector('.total-cost').innerHTML =`$${cost} and FREE SHIPPING`;
-			}
-
-		}
+            }
+        }
 		function subscribe() {
             const buttonElement = document.querySelector('.subscribe');
             if (buttonElement.innerHTML === 'Subscribe') {
                 buttonElement.innerHTML = 'Subscribed';
+                buttonElement.classList.add('is-subscribed');
             }else {
                 buttonElement.innerHTML = 'Subscribe'
+				buttonElement.classList.remove('is-subscribed');
             }
 		}
 	</script>

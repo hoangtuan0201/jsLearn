@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c9a09e5-b00e-4cb4-9b86-0f3b010b159a" name="Changes" comment="calculator project finished">
+      <change afterPath="$PROJECT_DIR$/10-html-css-together/10-domProject.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-html-css-together/paper-emoji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-html-css-together/rock-emoji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-html-css-together/rock-paper-scisscors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-html-css-together/scissors-emoji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carrossel3d.html/estilos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carrossel3d.html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carrossel3d.html/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-dom/09DOM.html" beforeDir="false" afterPath="$PROJECT_DIR$/09-dom/09DOM.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/09-dom/DOM.project.html" beforeDir="false" afterPath="$PROJECT_DIR$/09-dom/DOM.project.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/09-dom/calculatorDom.html" beforeDir="false" afterPath="$PROJECT_DIR$/09-dom/calculatorDom.html" afterDir="false" />
     </list>
@@ -19,8 +26,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTTP Request" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -57,7 +65,8 @@
     &quot;Node.js.hell.js.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/js/09-dom&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/js/10-html-css-together&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
@@ -74,8 +83,13 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\js\10-html-css-together" />
       <recent name="C:\js\09-dom" />
       <recent name="C:\Users\tuan0\AppData\Roaming\JetBrains\WebStorm2024.1\consoles\db" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\js\10-html-css-together" />
+      <recent name="C:\js\10-html-css-together\picture" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.08-rockpaperScissor.html">
@@ -131,7 +145,9 @@
       <workItem from="1722177472547" duration="1000" />
       <workItem from="1722178333711" duration="330000" />
       <workItem from="1722254192125" duration="7222000" />
-      <workItem from="1722305543618" duration="313000" />
+      <workItem from="1722305543618" duration="953000" />
+      <workItem from="1722337885772" duration="6703000" />
+      <workItem from="1722430282945" duration="5422000" />
     </task>
     <task id="LOCAL-00001" summary="local storage">
       <option name="closed" value="true" />
@@ -221,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722261817789</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="calculator project finished">
+      <option name="closed" value="true" />
+      <created>1722305898081</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1722305898081</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

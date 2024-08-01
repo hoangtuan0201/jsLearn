@@ -12,13 +12,21 @@
 		}
         /* Basic styling for the calculator buttons */
         button {
-            color:black;
-            padding:5px 10px 5px 10px;
-            font-size: 20px;
-            margin:0 3px 0 3px;
-            background-color: #FF9900;
             border: none;
+            color: black;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 24px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+            transition: background-color 0.3s ease;
         }
+		button:hover {
+                background-color: #45a049;
+		}
 
 	</style>
 </head>
@@ -102,7 +110,6 @@
 				clearCalculation()
 		">Clear</button>
 		</p>
-
     </div>
 
 	<script>
