@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c9a09e5-b00e-4cb4-9b86-0f3b010b159a" name="Changes" comment="add css to my project">
-      <change afterPath="$PROJECT_DIR$/10-html-css-together/exercises/10c.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-html-css-together/exercises/10c.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-html-css-together/exercises/10c.js" afterDir="false" />
+    <list default="true" id="5c9a09e5-b00e-4cb4-9b86-0f3b010b159a" name="Changes" comment="exercise 1 added">
+      <change afterPath="$PROJECT_DIR$/CalculatorProject/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CalculatorProject/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CalculatorProject/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-html-css-together/exercises2/10-domProject.html" beforeDir="false" afterPath="$PROJECT_DIR$/10-html-css-together/exercises2/10-domProject.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +21,9 @@
       <list>
         <option value="HTTP Request" />
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="TypeScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -59,7 +60,7 @@
     "Node.js.hell.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/js/10-html-css-together",
+    "last_opened_file_path": "C:/js/10-html-css-together/exercises2",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -78,6 +79,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\js\10-html-css-together\exercises2" />
       <recent name="C:\js\10-html-css-together" />
       <recent name="C:\js\09-dom" />
       <recent name="C:\Users\tuan0\AppData\Roaming\JetBrains\WebStorm2024.1\consoles\db" />
@@ -145,7 +147,7 @@
       <workItem from="1722337885772" duration="6703000" />
       <workItem from="1722430282945" duration="5422000" />
       <workItem from="1722510766594" duration="786000" />
-      <workItem from="1722511561615" duration="3358000" />
+      <workItem from="1722511561615" duration="5876000" />
     </task>
     <task id="LOCAL-00001" summary="local storage">
       <option name="closed" value="true" />
@@ -267,7 +269,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722512302110</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="exercise 1 added">
+      <option name="closed" value="true" />
+      <created>1722515414396</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1722515414396</updated>
+    </task>
+    <task id="LOCAL-00017" summary="exercise 1 added">
+      <option name="closed" value="true" />
+      <created>1722515422805</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1722515422805</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,6 +315,7 @@
     <MESSAGE value="exercises 9a,b,c,d" />
     <MESSAGE value="calculator project finished" />
     <MESSAGE value="add css to my project" />
-    <option name="LAST_COMMIT_MESSAGE" value="add css to my project" />
+    <MESSAGE value="exercise 1 added" />
+    <option name="LAST_COMMIT_MESSAGE" value="exercise 1 added" />
   </component>
 </project>

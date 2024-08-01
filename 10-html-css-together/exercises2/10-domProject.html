@@ -43,6 +43,9 @@
 		.calculate-shipping:hover , .subscribe:hover {
 			opacity:0.6;
 		}
+		.costError {
+			color: red;
+		}
 
 	</style>
 </head>
@@ -89,11 +92,19 @@
         function calculateTotal() {
             const costInput = document.querySelector('.js-cost-input');
             let cost = Number(costInput.value);
-            if (cost <40) {
+
+            if (cost <0 ) {
+                document.querySelector('.total-cost').classList.add('costError')
+				document.querySelector('.total-cost').innerHTML = "Error: cost cannot be less than $0";
+			}
+            else if (cost <40) {
                 cost = Math.round(((cost+10)*100))/100;
                 document.querySelector('.total-cost').innerHTML = `$${cost}`
+				document.querySelector('.total-cost').classList.remove('costError');
             }else {
                 document.querySelector('.total-cost').innerHTML =`$${cost} and FREE SHIPPING`;
+                document.querySelector('.total-cost').classList.remove('costError');
+
             }
         }
 		function subscribe() {
