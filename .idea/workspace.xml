@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c9a09e5-b00e-4cb4-9b86-0f3b010b159a" name="Changes" comment="add css to my project">
+      <change afterPath="$PROJECT_DIR$/10-html-css-together/exercises/10c.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-html-css-together/exercises/10c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-html-css-together/exercises/10c.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-html-css-together/10-domProject.html" beforeDir="false" afterPath="$PROJECT_DIR$/10-html-css-together/10-domProject.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-html-css-together/10-rock-paper-scissors.js" beforeDir="false" afterPath="$PROJECT_DIR$/10-html-css-together/rockpaperscissors/10-rock-paper-scissors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-html-css-together/paper-emoji.png" beforeDir="false" afterPath="$PROJECT_DIR$/10-html-css-together/rockpaperscissors/paper-emoji.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-html-css-together/rock-emoji.png" beforeDir="false" afterPath="$PROJECT_DIR$/10-html-css-together/rockpaperscissors/rock-emoji.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-html-css-together/rock-paper-scisscors.html" beforeDir="false" afterPath="$PROJECT_DIR$/10-html-css-together/rockpaperscissors/rock-paper-scisscors.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-html-css-together/scissors-emoji.png" beforeDir="false" afterPath="$PROJECT_DIR$/10-html-css-together/rockpaperscissors/scissors-emoji.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +22,7 @@
         <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -69,6 +67,7 @@
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "web-ide.project.structure",
+    "ts.external.directory.path": "C:\\Users\\tuan0\\AppData\\Local\\Programs\\WebStorm 2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -146,7 +145,7 @@
       <workItem from="1722337885772" duration="6703000" />
       <workItem from="1722430282945" duration="5422000" />
       <workItem from="1722510766594" duration="786000" />
-      <workItem from="1722511561615" duration="370000" />
+      <workItem from="1722511561615" duration="3358000" />
     </task>
     <task id="LOCAL-00001" summary="local storage">
       <option name="closed" value="true" />
@@ -260,7 +259,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722511181968</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add css to my project">
+      <option name="closed" value="true" />
+      <created>1722512302109</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1722512302110</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
