@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c9a09e5-b00e-4cb4-9b86-0f3b010b159a" name="Changes" comment="calculator project finished">
-      <change afterPath="$PROJECT_DIR$/10-html-css-together/10-domProject.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-html-css-together/paper-emoji.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-html-css-together/rock-emoji.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-html-css-together/rock-paper-scisscors.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-html-css-together/scissors-emoji.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carrossel3d.html/estilos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carrossel3d.html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carrossel3d.html/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-dom/DOM.project.html" beforeDir="false" afterPath="$PROJECT_DIR$/09-dom/DOM.project.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-dom/calculatorDom.html" beforeDir="false" afterPath="$PROJECT_DIR$/09-dom/calculatorDom.html" afterDir="false" />
+    <list default="true" id="5c9a09e5-b00e-4cb4-9b86-0f3b010b159a" name="Changes" comment="add css to my project">
+      <change afterPath="$PROJECT_DIR$/10-html-css-together/10-rock-paper-scissors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-html-css-together/rock-paper-scisscors.html" beforeDir="false" afterPath="$PROJECT_DIR$/10-html-css-together/rock-paper-scisscors.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,6 +139,7 @@
       <workItem from="1722305543618" duration="953000" />
       <workItem from="1722337885772" duration="6703000" />
       <workItem from="1722430282945" duration="5422000" />
+      <workItem from="1722510766594" duration="300000" />
     </task>
     <task id="LOCAL-00001" summary="local storage">
       <option name="closed" value="true" />
@@ -245,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722305898081</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add css to my project">
+      <option name="closed" value="true" />
+      <created>1722510833733</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1722510833733</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,6 +263,7 @@
     <MESSAGE value="DOM, document.querySelector, innerHTML, 3 projects using the DOM, onkeydown, string and window object" />
     <MESSAGE value="exercises 9a,b,c,d" />
     <MESSAGE value="calculator project finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="calculator project finished" />
+    <MESSAGE value="add css to my project" />
+    <option name="LAST_COMMIT_MESSAGE" value="add css to my project" />
   </component>
 </project>
