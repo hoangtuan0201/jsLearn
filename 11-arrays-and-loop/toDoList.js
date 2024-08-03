@@ -1,4 +1,7 @@
 const toDoList = [];
+
+
+
 function addTask() {
     const taskInput = document.querySelector('.input-todo');
     const taskName = taskInput.value;

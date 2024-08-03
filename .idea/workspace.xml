@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c9a09e5-b00e-4cb4-9b86-0f3b010b159a" name="Changes" comment="calculator project finished">
-      <change afterPath="$PROJECT_DIR$/11-arrays-and-loop/11-arraysAndLoop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-arrays-and-loop/toDoList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-arrays-and-loop/toDoList.js" afterDir="false" />
+    <list default="true" id="5c9a09e5-b00e-4cb4-9b86-0f3b010b159a" name="Changes" comment="array">
+      <change afterPath="$PROJECT_DIR$/11-arrays-and-loop/11arrayAndLoop.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +19,8 @@
         <option value="HTTP Request" />
         <option value="TypeScript File" />
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -155,6 +153,7 @@
       <workItem from="1722607790273" duration="611000" />
       <workItem from="1722648002143" duration="4000" />
       <workItem from="1722680923142" duration="6676000" />
+      <workItem from="1722691400148" duration="4201000" />
     </task>
     <task id="LOCAL-00001" summary="local storage">
       <option name="closed" value="true" />
@@ -308,7 +307,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722680936223</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="array">
+      <option name="closed" value="true" />
+      <created>1722691508702</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1722691508702</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,6 +346,7 @@
     <MESSAGE value="add css to my project" />
     <MESSAGE value="exercise 1 added" />
     <MESSAGE value="calculator project finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="calculator project finished" />
+    <MESSAGE value="array" />
+    <option name="LAST_COMMIT_MESSAGE" value="array" />
   </component>
 </project>
