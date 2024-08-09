@@ -4,7 +4,7 @@ const toDoList = [
         dueDate: '2023-6-8'
     },
     {
-        name: 'go to the gym',
+        name: 'go to the gym', 
         dueDate: '2023-6-10'
     }
 ];
