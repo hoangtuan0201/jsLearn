@@ -2,92 +2,54 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Calculator</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Enhanced Calculator</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <p class="result-place"></p>
 <div class="calculator-container">
-
 	<div>
-		<button class=grayButton onclick="updateCalculation(1)">
-			1
-		</button>
-		<button class=grayButton onclick="updateCalculation(2)">
-			2
-		</button>
-		<button  class=grayButton onclick="updateCalculation(3)">
-			3
-		</button>
-		<button class ='+ orangeButton' onclick="updateCalculation('+')">
-			+
-		</button>
-	</div>
-	<!--	// Note: eval() takes a string and runs it as code.-->
-	<!--	// Avoid using eval() in real world projects since-->
-	<!--	// it can potentially be given harmful code to run.-->
-	<!--	// Only use eval() for learning purposes.-->
-	<div>
-		<button class=grayButton onclick="updateCalculation(4)">
-			4
-		</button>
-		<button class=grayButton onclick="updateCalculation(5)">
-			5
-		</button>
-		<button class=grayButton onclick="updateCalculation(6)">
-			6
-		</button>
-		<button class="- orangeButton" onclick="updateCalculation('-')">
-			-
-		</button>
+		<button class="grayButton" onclick="updateCalculation(1)">1</button>
+		<button class="grayButton" onclick="updateCalculation(2)">2</button>
+		<button class="grayButton" onclick="updateCalculation(3)">3</button>
+		<button class="orangeButton" onclick="updateCalculation('+')">+</button>
 	</div>
 
 	<div>
-		<button class=grayButton onclick="updateCalculation(7)">
-			7
-		</button>
-		<button class=grayButton onclick="updateCalculation(8)">
-			8
-		</button>
-		<button class=grayButton onclick="updateCalculation(9)">
-			9
-		</button>
-		<button class="* orangeButton" onclick="updateCalculation('*')">
-			*
-		</button>
+		<button class="grayButton" onclick="updateCalculation(4)">4</button>
+		<button class="grayButton" onclick="updateCalculation(5)">5</button>
+		<button class="grayButton" onclick="updateCalculation(6)">6</button>
+		<button class="orangeButton" onclick="updateCalculation('-')">-</button>
 	</div>
 
 	<div>
-		<button class=grayButton onclick="updateCalculation(0)">
-			0
-		</button>
-		<button class=grayButton onclick="updateCalculation('.')">
-			.
-		</button>
-
-		<button  class=grayButton onclick="
-			// Note: eval() takes a string and runs it as code.
-				// Avoid using eval() in real world projects since
-				// it can potentially be given harmful code to run.
-				// Only use eval() for learning purposes.
-				calculateResult();
-			">
-			=
-		</button>
-		<button class="/ orangeButton" onclick="updateCalculation('/');">
-			/
-		</button>
-
+		<button class="grayButton" onclick="updateCalculation(7)">7</button>
+		<button class="grayButton" onclick="updateCalculation(8)">8</button>
+		<button class="grayButton" onclick="updateCalculation(9)">9</button>
+		<button class="orangeButton" onclick="updateCalculation('*')">*</button>
 	</div>
 
 	<div>
-		<button class="clear grayButton" style="font-size:18px;" onclick="
-				clearCalculation()
-		">Clear</button>
+		<button class="grayButton" onclick="updateCalculation(0)">0</button>
+		<button class="grayButton" onclick="updateCalculation('.')">.</button>
+		<button class="orangeButton" onclick="updateCalculation('/')">/</button>
+		<button class="orangeButton" onclick="updateCalculation('%')">%</button>
 	</div>
+
+	<div>
+		<button class="grayButton" onclick="calculateResult()">=</button>
+		<button class="grayButton" onclick="sqrt()">√</button>
+		<button class="grayButton" onclick="backspace()">←</button>
+		<button class="clear grayButton" style="font-size:18px;" onclick="clearCalculation()">Clear</button>
+	</div>
+
+	<div class="theme-toggle">
+		<button class="grayButton darkmodeButton" onclick="toggleTheme()">Toggle Theme</button>
+	</div>
+
 </div>
 
-<script src="script.js">
-</script>
+<script src="script.js"></script>
 </body>
 </html>

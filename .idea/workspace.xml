@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c9a09e5-b00e-4cb4-9b86-0f3b010b159a" name="Changes" comment="exercises finished">
+    <list default="true" id="5c9a09e5-b00e-4cb4-9b86-0f3b010b159a" name="Changes" comment="to do list vip pro cua tuan">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11-arrays-and-loop/toDoList.html" beforeDir="false" afterPath="$PROJECT_DIR$/11-arrays-and-loop/toDoList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11-arrays-and-loop/toDoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/11-arrays-and-loop/toDoList.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,39 +50,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.08-rockpaperScissor.html.executor": "Run",
-    "JavaScript Debug.08i.html.executor": "Run",
-    "Node.js.11a,b,c.html.js.executor": "Run",
-    "Node.js.11d,e,f,g,h.js.executor": "Run",
-    "Node.js.11i,j,k.js.executor": "Run",
-    "Node.js.challenge.js.executor": "Run",
-    "Node.js.graph.js.executor": "Run",
-    "Node.js.hell.js.executor": "Run",
-    "Node.js.toDoList.js.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/js/10-html-css-together/exercises2",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "web-ide.project.structure",
-    "ts.external.directory.path": "C:\\Users\\tuan0\\AppData\\Local\\Programs\\WebStorm 2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.08-rockpaperScissor.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.08i.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.11a,b,c.html.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.11d,e,f,g,h.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.11i,j,k.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.challenge.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.graph.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.hell.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.toDoList.js.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/js/CalculatorProject&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;web-ide.project.structure&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\tuan0\\AppData\\Local\\Programs\\WebStorm 2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlserver.localdb"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlserver.localdb&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\js\CalculatorProject" />
       <recent name="C:\js\10-html-css-together\exercises2" />
       <recent name="C:\js\10-html-css-together" />
       <recent name="C:\js\09-dom" />
@@ -150,7 +149,12 @@
       <workItem from="1722691400148" duration="7266000" />
       <workItem from="1722750223980" duration="6000" />
       <workItem from="1722859812764" duration="3100000" />
-      <workItem from="1722937217420" duration="10601000" />
+      <workItem from="1722937217420" duration="10958000" />
+      <workItem from="1722951704825" duration="678000" />
+      <workItem from="1722994900656" duration="48000" />
+      <workItem from="1723169130910" duration="1923000" />
+      <workItem from="1723171208704" duration="47000" />
+      <workItem from="1723187487168" duration="12000" />
     </task>
     <task id="LOCAL-00001" summary="local storage">
       <option name="closed" value="true" />
@@ -344,7 +348,39 @@
       <option name="project" value="LOCAL" />
       <updated>1722942662370</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="to do list vip pro cua tuan">
+      <option name="closed" value="true" />
+      <created>1722950842580</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1722950842580</updated>
+    </task>
+    <task id="LOCAL-00026" summary="to do list vip pro cua tuan">
+      <option name="closed" value="true" />
+      <created>1722950889481</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1722950889481</updated>
+    </task>
+    <task id="LOCAL-00027" summary="to do list vip pro cua tuan">
+      <option name="closed" value="true" />
+      <created>1723171214855</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1723171214855</updated>
+    </task>
+    <task id="LOCAL-00028" summary="to do list vip pro cua tuan">
+      <option name="closed" value="true" />
+      <created>1723171236258</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1723171236258</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,7 +415,8 @@
     <MESSAGE value="to do list" />
     <MESSAGE value="exercises" />
     <MESSAGE value="exercises finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="exercises finished" />
+    <MESSAGE value="to do list vip pro cua tuan" />
+    <option name="LAST_COMMIT_MESSAGE" value="to do list vip pro cua tuan" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -387,19 +424,16 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/11-arrays-and-loop/exercises/challenge.js</url>
           <line>26</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/11-arrays-and-loop/exercises/challenge.js</url>
           <line>31</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/11-arrays-and-loop/exercises/challenge.js</url>
           <line>32</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>

@@ -21,13 +21,12 @@ function renderTodoList() {
         const { name } = toDoList[i]; //destructuring property name to variable
         // const dueDate = toDoList[i].dueDate;
         const { dueDate } = toDoList[i]; //destructuring property dueDate to variable
-        const html = `<p>
-                                ${name} at ${dueDate} 
-                                <button class="delete-button" onclick="
-                                    toDoList.splice(${i}, 1); 
-                                    renderTodoList();
-                                ">Delete</button>
-                              </p>`
+        const html = `<div>${name}</div>
+                             <div>${dueDate}</div>
+                            <button class="delete-button" onclick="
+                                toDoList.splice(${i}, 1); 
+                                renderTodoList();
+                            ">Delete</button>`
         todoListHTML += html;
     }
     document.querySelector('.js-todo-list').innerHTML = todoListHTML;
