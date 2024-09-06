@@ -48,6 +48,31 @@
     nums.forEach(function(num) {
       console.log(num * 2);
     })
+	const array1 = [1,2,3]
+	const array2 = array1
+	array2.push(4)
+	console.log(array1) // Output: [1, 2, 3, 4]
+	// if you want to make a copy use slice method
+
+	const array3 = array1.slice()
+    array3.push(5)
+    console.log(array1) // Output: [1, 2, 3]
+    console.log(array3) // Output: [1, 2, 3, 5]
+	// destructuring
+	const [first, second, third] = [1,2,3]
+	// continue let us skip 1 iteration
+	for (let i =1; i <=10; i++){
+        if (i%2 !==0) {
+            continue;
+        }
+        console.log(i);
+        if (i === 8) {
+            break;
+		}
+	}
+	function squareArray(nums) {
+        const numSquare
+	}
   </script>
 
 </body>
