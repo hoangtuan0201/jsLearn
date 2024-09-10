@@ -1,13 +1,11 @@
-const toDoList = [
-    {
-        name:'make dinner',
-        dueDate: '2023-6-8'
-    },
-    {
-        name: 'go to the gym', 
-        dueDate: '2023-6-10'
-    }
-];
+let toDoList = JSON.parse(localStorage.getItem('task')) || [{
+    name: 'make dinner',
+    dueDate: '2022-12-22'
+}, {
+    name: 'wash dishes',
+    dueDate: '2022-12-22'
+}];
+
     renderTodoList();
 
 
@@ -18,16 +16,17 @@ function renderTodoList() {
     for (let i in toDoList) {
         // Tạo HTML cho từng task ứng với thông tin của task
         // const name = toDoList[i].name;
-        const { name } = toDoList[i]; //destructuring property name to variable
         // const dueDate = toDoList[i].dueDate;
-        const { dueDate } = toDoList[i]; //destructuring property dueDate to variable
-        const html = `<p>
+        const { name, dueDate } = toDoList[i]; //destructuring property dueDate, name to variable
+        const html = `<div>
                                 ${name} at ${dueDate} 
                                 <button class="delete-button" onclick="
                                     toDoList.splice(${i}, 1); 
                                     renderTodoList();
+                                    // Whenever we update the todo list, save in localStorage.
+                                    saveToStorage();
                                 ">Delete</button>
-                              </p>`
+                              </div>`
         todoListHTML += html;
     }
     document.querySelector('.js-todo-list').innerHTML = todoListHTML;
@@ -49,5 +48,11 @@ function addTask() {
         console.log(toDoList);
         taskInput.value = '' // dòng này để sau mỗi lần thêm thì input sẽ trống
         renderTodoList();
+        // Whenever we update the todo list, save in localStorage.
+        saveToStorage();
     }
+
+}
+function saveToStorage() {
+    localStorage.setItem('task', JSON.stringify(toDoList));
 }

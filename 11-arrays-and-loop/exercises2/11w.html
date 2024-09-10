@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+	<script>
+        const array1 = ['hello', 'world', 'good', 'search', 'search']
+        const array2 = ['not', 'found']
+        function findIndex(array, word) {
+            for(let i =0; i < array.length; i++) {
+                if (array[i] === word) {
+                    return i;
+                }
+            }
+            return -1;
+        }
+        function unique(array) {
+            const result = [];
+
+            for (let i = 0; i < array.length; i++) {
+                const word = array[i];
+
+                // Using the findIndex() function from above, we
+                // can check if the string is already in the
+                // result array. If it's not in the result array
+                // (index is -1), then add it to the result array.
+                if (findIndex(result, word) === -1) {
+                    result.push(word);
+                }
+            }
+
+            return result;
+        }
+
+	</script>
+
+</body>
+</html>

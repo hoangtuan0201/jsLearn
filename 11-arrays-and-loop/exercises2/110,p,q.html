@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+
+    <script>
+      const array1 = ['hello', 'world', 'good', 'search', 'search']
+      const array2 = ['not', 'found']
+      function findIndex(array, word) {
+        for(let i =0; i < array.length; i++) {
+          if (array[i] === word) {
+            return i;
+          }
+        }
+        return -1;
+      }
+      console.log(findIndex(array1, 'search'))
+
+    </script>
+</body>
+</html>
