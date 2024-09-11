@@ -5,6 +5,41 @@
     <title>Title</title>
 </head>
 <body>
+    <script>
+        function greeting() {
+            console.log("hello");
+        }
+
+        const num = 2;
+        //annonymouse function without a name
+        const function1 = function() {
+            console.log("hello");
+        };
+
+        // console.log(function1);
+        // function1();
+        const object1 = {
+            num: 2,
+            fun: function greeting(name) {
+                console.log(`hello ${name}`);
+            }
+        };
+        object1.fun('Tuan');
+        //function in function
+        setTimeout(function() {
+            console.log('Hello after 3 seconds');
+
+        }, 3000); ///3 seconds
+        // asynchronous code it will not wait
+        // Synchronous code it will wait until function completed
+
+
+        setInterval(function() {
+            console.log('hello in every 2 seconds')
+        }, 3000);
+
+
+    </script>
 
 </body>
 </html>
