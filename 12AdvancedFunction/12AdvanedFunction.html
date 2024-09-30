@@ -20,7 +20,7 @@
         // function1();
         const object1 = {
             num: 2,
-            fun: function greeting(name) {
+            fun: function(name) {
                 console.log(`hello ${name}`);
             }
         };
@@ -34,9 +34,30 @@
         // Synchronous code it will wait until function completed
 
 
-        setInterval(function() {
-            console.log('hello in every 2 seconds')
-        }, 3000);
+        // setInterval(function() {
+        //     console.log('hello in every 2 seconds')
+        // }, 3000)
+        //để dừng interval ta tạo một biến cho setInterval để lưu reference
+        // let stopInterval;
+        // stopInterval = setInterval(function() {})
+        // clearInterval(stopInterval);
+
+
+        //for each
+        [
+            "wash dishes",
+            "make dinner",
+            "watch youtube"
+        ].forEach(function(value, index) {
+            if (value === 'wash dishes') {
+                return; // basically does the same thing as continue
+                //skip this
+            }
+            console.log(value);
+
+        })
+
+
 
 
     </script>

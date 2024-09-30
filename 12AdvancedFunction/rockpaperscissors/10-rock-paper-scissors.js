@@ -73,3 +73,4 @@ function resetScore() {
     updateScore();
     localStorage.removeItem('score');
 }
+
