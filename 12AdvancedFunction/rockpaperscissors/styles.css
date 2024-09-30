@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(25,25,25);
+    text-align: center;
+    margin-top: 50px;
+
+    color: white;
+}
+.header {
+    font-size:30px;
+    background-image: linear-gradient(to right, Red , Orange, Yellow, Green, Blue, Indigo, Violet);
+    color: white;
+    padding: 20px;
+}
+.move-score {
+    background-color:green;
+    color: white;
+    padding: 12px 15px 12px 15px;
+    border: none;
+    font-size:15px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.move-score:active {
+    background-color:darkgreen;
+}
+p {
+    font-size: 20px;
+}
+/*.rock-button, .paper-button, .scissor-button, .reset-score {*/
+/*    border: none;*/
+/*    color: black;*/
+/*    padding: 15px 32px;*/
+/*    text-align: center;*/
+/*    text-decoration: none;*/
+/*    display: inline-block;*/
+/*    font-size: 24px;*/
+/*    margin: 4px 2px;*/
+/*    cursor: pointer;*/
+/*    border-radius: 12px;*/
+/*    transition: background-color 0.3s ease;*/
+/*}*/
+/*.rock-button:hover, .paper-button:hover, .scissor-button:hover, .reset-score:hover {*/
+/*    background-color: #45a049;*/
+/*}*/
+.move-button {
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 60px;
+    width:120px;
+    height: 120px;
+    margin-right:5px;
+    cursor: pointer;
+}
+
+.move-icon {
+    width:60px;
+    height: 60px;
+
+}
