@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--  câu c-->
+  <button class="btn1" onclick="setTimeout(function(){
+    document.querySelector(`.btn1`).innerHTML = 'Finished'
+  },1000)">text</button><br>
+    <button onclick="displayTextAndRemove()">Add to cart</button>
+
+    <p class="text"></p>
+
+
+
+
+  <script>
+      let timeOut = setTimeout(() => {
+          textElement.innerHTML= "";
+      }, 3000);
+      //d
+      const textElement = document.querySelector('.text');
+
+      function displayTextAndRemove() {
+          textElement.innerHTML= "Added";
+          clearTimeout(timeOut);
+          timeOut =setTimeout(() => {
+              textElement.innerHTML= "";
+          }, 3000);
+
+      }
+
+
+    //b
+    const add = function() {
+      console.log(2+3)
+    }
+
+    function runTwice(fun) {
+      fun();
+      fun();
+    }
+    // runTwice(add); 5
+
+
+
+
+  </script>
+</body>
+</html>

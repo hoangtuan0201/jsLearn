@@ -5,57 +5,90 @@
     <title>Title</title>
 </head>
 <body>
+<button onclick="" class="js-button">Click</button>
     <script>
-        function greeting() {
-            console.log("hello");
-        }
-
-        const num = 2;
-        //annonymouse function without a name
-        const function1 = function() {
-            console.log("hello");
+        const buttonElement = document.querySelector('.js-button')
+        //first parameter is event second parameter is function that we want to call
+        const eventListener = ()=> {
+            buttonElement.innerHTML="Clicked";
         };
+        buttonElement.addEventListener('click', eventListener);
 
-        // console.log(function1);
-        // function1();
-        const object1 = {
-            num: 2,
-            fun: function(name) {
-                console.log(`hello ${name}`);
-            }
-        };
-        object1.fun('Tuan');
-        //function in function
-        setTimeout(function() {
-            console.log('Hello after 3 seconds');
+        buttonElement.removeEventListener('click', eventListener)
 
-        }, 3000); ///3 seconds
-        // asynchronous code it will not wait
-        // Synchronous code it will wait until function completed
+        buttonElement.addEventListener('click', eventListener);
 
 
-        // setInterval(function() {
-        //     console.log('hello in every 2 seconds')
-        // }, 3000)
-        //để dừng interval ta tạo một biến cho setInterval để lưu reference
-        // let stopInterval;
-        // stopInterval = setInterval(function() {})
-        // clearInterval(stopInterval);
 
 
-        //for each
-        [
-            "wash dishes",
-            "make dinner",
-            "watch youtube"
-        ].forEach(function(value, index) {
-            if (value === 'wash dishes') {
-                return; // basically does the same thing as continue
-                //skip this
-            }
-            console.log(value);
 
-        })
+
+
+        // function greeting() {
+        //     console.log("hello");
+        // }
+        //
+        // const num = 2;
+        // //annonymouse function without a name
+        // const function1 = function() {
+        //     console.log("hello");
+        // };
+        //
+        // // console.log(function1);
+        // // function1();
+        // const object1 = {
+        //     num: 2,
+        //     fun: function(name) {
+        //         console.log(`hello ${name}`);
+        //     }
+        // };
+        // object1.fun('Tuan');
+        // //function in function
+        // setTimeout(function() {
+        //     console.log('Hello after 3 seconds');
+        //
+        // }, 3000); ///3 seconds
+        // // asynchronous code it will not wait
+        // // Synchronous code it will wait until function completed
+        //
+        //
+        // // setInterval(function() {
+        // //     console.log('hello in every 2 seconds')
+        // // }, 3000)
+        // //để dừng interval ta tạo một biến cho setInterval để lưu reference
+        // // let stopInterval;
+        // // stopInterval = setInterval(function() {})
+        // // clearInterval(stopInterval);
+        //
+        //
+        // //for each
+        // [
+        //     "wash dishes",
+        //     "make dinner",
+        //     "watch youtube"
+        // ].forEach((value, index) => {
+        //     if (value === 'wash dishes') {
+        //         return; // basically does the same thing as continue
+        //         //skip this
+        //     }
+        //     console.log(value);
+        //
+        // })
+        // const arrowFunction = () => {
+        //     console.log('hello');
+        // }
+        // arrowFunction();
+        //
+        // const oneLine =() => 2+3;
+        // const object2 = {
+        //     method:() => {
+        //
+        //     },
+        //     method2() {
+        //
+        //     }
+        // }
+
 
 
 
