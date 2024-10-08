@@ -28,9 +28,10 @@ function pickComputerMove() {
 }
 let isPickingMove = false;
 let intervalID;
+
 function autoPlay() {
-    if (!isPickingMove) {
-        intervalID = setInterval(function() {
+    if (!isPickingMove) { // if ispickingMove is false
+        intervalID = setInterval(()=> {
             const player_move = pickComputerMove()
             //tao 1 ham random cho playermove cho bot tu choi keo bua bao voi nhau
             playGame(player_move);
@@ -41,7 +42,18 @@ function autoPlay() {
         isPickingMove = false;
     }
 }
-
+//rock
+document.querySelector('.js-rock-button').addEventListener('click', () => {
+    playGame('Rock');
+});
+//paper
+document.querySelector('.js-paper-button').addEventListener('click', () => {
+    playGame('Paper');
+});
+//scissors
+document.querySelector('.js-scissors-button').addEventListener('click', () => {
+    playGame('Scissors');
+});
 function playGame(player_move) {
     const computer_move = pickComputerMove();
 

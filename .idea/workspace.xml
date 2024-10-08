@@ -5,21 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c9a09e5-b00e-4cb4-9b86-0f3b010b159a" name="Changes" comment="to dolist grid version">
-      <change afterPath="$PROJECT_DIR$/COMP1589/01.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/COMP1589/date.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/COMP1589/form.html'.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/COMP1589/form1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/COMP1589/form2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/COMP1589/form3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/COMP1589/javascript.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12AdvancedFunction/exercises/12b,c,d,e.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12AdvancedFunction/exercises/12title.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/12AdvancedFunction/12AdvanedFunction.html" beforeDir="false" afterPath="$PROJECT_DIR$/12AdvancedFunction/12AdvanedFunction.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalculatorProject/858113.png" beforeDir="false" afterPath="$PROJECT_DIR$/COMP1589/858113.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalculatorProject/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/CalculatorProject/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalculatorProject/tải xuống (3).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formValidation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/formValidation/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formValidation/validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/formValidation/validator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12AdvancedFunction/12toDoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/12AdvancedFunction/12toDoList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12AdvancedFunction/rockpaperscissors/10-rock-paper-scissors.js" beforeDir="false" afterPath="$PROJECT_DIR$/12AdvancedFunction/rockpaperscissors/10-rock-paper-scissors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12AdvancedFunction/rockpaperscissors/rock-paper-scisscors.html" beforeDir="false" afterPath="$PROJECT_DIR$/12AdvancedFunction/rockpaperscissors/rock-paper-scisscors.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +42,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/hoangtuan0201/jsLearn.git&quot;,
-    &quot;accountId&quot;: &quot;f85666d3-bd80-4cef-b399-131abe809ffd&quot;
+    &quot;accountId&quot;: &quot;c75232fc-0005-4b03-b501-444409c614f7&quot;
   }
 }</component>
   <component name="ProblemsViewState">
@@ -125,7 +117,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-WS-242.21829.149" />
       </set>
     </attachedChunks>
   </component>
@@ -190,11 +182,12 @@
       <workItem from="1727535285229" duration="32000" />
       <workItem from="1727698806610" duration="5937000" />
       <workItem from="1727711372352" duration="3028000" />
-      <workItem from="1727848656677" duration="8000" />
-      <workItem from="1727851214734" duration="4339000" />
-      <workItem from="1727857498437" duration="2348000" />
-      <workItem from="1728270660871" duration="155000" />
-      <workItem from="1728274549436" duration="808000" />
+      <workItem from="1727718109795" duration="35000" />
+      <workItem from="1727718151865" duration="4000" />
+      <workItem from="1727788020974" duration="20000" />
+      <workItem from="1727792108867" duration="1058000" />
+      <workItem from="1727867142985" duration="7632000" />
+      <workItem from="1728116021021" duration="3405000" />
     </task>
     <task id="LOCAL-00001" summary="local storage">
       <option name="closed" value="true" />
@@ -452,7 +445,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727711738032</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="to dolist grid version">
+      <option name="closed" value="true" />
+      <created>1727718142972</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1727718142972</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,7 +512,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/12AdvancedFunction/12AdvanedFunction.html</url>
-          <line>12</line>
+          <line>30</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>

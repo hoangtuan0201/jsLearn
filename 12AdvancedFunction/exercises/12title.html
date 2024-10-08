@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>App</title>
+</head>
+<body>
+    <button onclick="
+        messages++
+        displayNotification()
+    ">Add</button>
+    <button onclick="
+        if(messages>0){
+            messages--;
+            if (messages===0){
+            stopNotification()
+            }
+        }
+        // If there are no new messages, stop displaying
+        // the notification in the tab.
+    ">Remove
+    </button>
+
+
+
+
+
+<script>
+    let messages = 2;
+    let intervalID;
+    let isDisplayingNotification;
+    displayNotification();
+    function displayNotification() {
+        if(isDisplayingNotification){ //nếu isDisplayingNotification có tồn tại true false thì return
+            return;
+        }
+        isDisplayingNotification = true;
+
+        intervalID = setInterval(function(){
+            if(document.title==="App"){
+                document.title=`${messages} new messages`
+            }else{
+                document.title = "App"
+            }
+        },1000);
+    }
+
+    function stopNotification() {
+        isDisplayingNotification = false;
+        clearInterval(intervalID);
+        document.title = "App";
+
+    }
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

@@ -9,11 +9,11 @@ let toDoList = JSON.parse(localStorage.getItem('task')) || [{
     renderTodoList();
 
 
-
+//hoisting có nghĩa là khi ta tạo function ở dưới nhưng vẫn call function ở trên được arrow function ko hoisting được nhưng regular thì oke
 
 function renderTodoList() {
     let todoListHTML = '';
-    toDoList.forEach(function(value, index){
+    toDoList.forEach((value, index) =>{
         const { name, dueDate } = value; //destructuring property dueDate, name to variable
         const html = `<div>
                                 ${name} at ${dueDate} 
