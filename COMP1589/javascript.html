@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<style>
+       img {
+		   width:200px;
+		   height:200px;
+	   }
+	</style>
+</head>
+<body>
+	<h1>My first Javascript</h1>
+	<img class="img1" onclick="lightBub()" src="img.png">
+	<button onclick="light(0)">Light On</button>
+	<button onclick="light(1)">Light Off</button>
+
+
+	<script>
+        function lightBub() {
+            const buttonElement = document.querySelector('.img1');
+            if (buttonElement.src.endsWith('img.png')) {
+                buttonElement.src = '858113.png';
+            }else {
+                buttonElement.src = 'img.png';
+            }
+        }
+
+		function light(sw) {
+            var pic;
+            if (sw ===0) {
+				pic = '858113.png';
+			}
+            else {
+                pic = 'img.png';
+            }
+            document.querySelector('.img1').src = pic;
+		}
+	</script>
+</body>
+</html>

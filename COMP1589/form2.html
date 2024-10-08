@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<style>
+
+	</style>
+</head>
+<body>
+	<form name="form1">
+		<label>Enter your numbers</label><br>
+		<input name="num" type="text" size=4>
+		<input name="num2" type="text" size=4>
+		<input type="button" value="multiply" onclick="addit()">
+		<input name="multipleAnswer" type="text" size=4 value="">
+		<br><br>
+		<label>Enter your number for cubing</label><br>
+		<input name="yournum" type="text" size=4>
+		<input type="button" value="cube" onclick="cubeit()">
+		<input name="cubeanswer" type="text" size=4 value="">
+	</form>
+
+
+
+	<script>
+		function addit() {
+             a =1*document.form1.num.value
+			 b =1*document.form1.num2.value
+			 y = a*b;
+            document.form1.multipleAnswer.value = y
+		}
+        function cubeit() {
+            a =1*document.form1.yournum.value
+			answer = a*a*a
+			document.form1.cubeanswer.value = answer;
+		}
+	</script>
+</body>
+</html>

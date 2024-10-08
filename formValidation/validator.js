@@ -1,5 +1,6 @@
 //blur có nghĩa là khi bỏ chuột ra khỏi input box.
 function Validator(options) {
+
     function validate (inputElement, rule) {
         //display error message
         var errorMessage = rule.test(inputElement.value)
@@ -50,7 +51,10 @@ Validator.isRequired = function(selector) {
 Validator.isEmail = function(selector) {
     return {
         selector: selector,
-        test: function () {
+        test: function (value) {
+                // var mailFormat  = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
+
 
         }
     }

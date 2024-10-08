@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<style>
+
+	</style>
+	<title>Title</title>
+</head>
+<body>
+<div class="form-container">
+	<form id="my_form" action="action_page1.php" method="POST">
+		<div class="form-group">
+			<label for="username">Username</label><br>
+			<input  type="text" id="username" name="username" required><br>
+			<label for="pwd" >Password</label><br>
+			<input type="password" id="pwd" name="pwd" required><br>
+			<input type="submit" value="Submit">
+		</div>
+	</form>
+	<form onsubmit="return checkForm()"></form>
+</div>
+
+
+
+
+<script>
+
+
+	function checkForm() {
+		alert("checked")
+    }
+    document.forms['my_form'].addEventListener('submit', checkForm)
+		document.forms['my_form'].addEventListener('submit', (event) => {
+        event.preventDefault()
+		alert("form submitted")
+	})
+	const form = document.forms['my_form']
+	form.addEventListener('submit',(event) => {
+        event.preventDefault()
+        const FD = new FormData(form)
+		if (FD.get('field_name') ==='')
+        {
+            form.append('This field is required')
+
+		}
+        if(FD.get('checkbox_input_field'))
+        {
+            alert('terms & conditions must be accepted')
+
+		}
+	})
+
+</script>
+
+
+</body>
+</html>

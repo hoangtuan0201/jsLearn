@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<style>
+		body {
+			font-family:Arial,sans-serif;
+		}
+
+	</style>
+</head>
+<body>
+<p class="demo"></p>
+
+
+	<script>
+        var d = new Date();
+		document.write("Today Date: "+ d)
+        var time = d.getHours();
+        if (time<10) {
+            document.write("<br>Good morning!");
+        } else if (time>10 && time<18) {
+            document.write("<br>Good day!");
+		} else  {
+            document.write("<br>Good night!");
+		}
+
+        switch(new Date().getDay())
+		{
+			case 0:
+                day = "Sunday";
+                break;
+			case 1:
+                day = "Monday";
+                break;
+			case 2:
+                day = "Tuesday";
+                break;
+            case 3:
+                day = "Wednesday";
+                break;
+            case 4:
+                day = "Thursday";
+                break;
+            case 5:
+                day = "Friday";
+                break;
+            case 6:
+                day = "Saturday";
+                break;
+        }
+        document.write("<br>")
+		document.querySelector('.demo').innerHTML = 'Today is ' + day;
+
+
+
+
+
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<style>
+	body{
+		font-size:20px;
+		font-family:Arial, sans-serif;
+
+	}
+	input{
+		display:inline-block;
+	}
+
+</style>
+<body>
+<form name="form1">
+
+    <input type="radio" id="red" name="choice" value="red" required>
+    <label for="red" style="color:red">Red</label>
+	<br>
+    <input type="radio" id="blue" name="choice" value="blue" required>
+    <label for="blue" style="color:blue">Blue</label>
+	<br>
+	<input type="text" name="output">
+	<input type="button" name="choose" value="choose" onclick="say()"><br>
+    <input type="button" name="quit" value="let me out i cant" onclick="window.close()"><br>
+	<input type="button" name="clear" value="clear" onclick="clearTxt()">
+</form>
+
+
+<script>
+
+	function say() {
+        var y = 'you choose';
+        if(document.form1.choice[0].checked){
+            y+= " red"
+		}
+        if(document.form1.choice[1].checked){
+            y+= " blue"
+		}
+        document.form1.output.value=y;
+    }
+    function clearTxt() {
+        var y="";
+        document.form1.output.value=y;
+	}
+
+
+
+</script>
+
+</body>
+</html>
