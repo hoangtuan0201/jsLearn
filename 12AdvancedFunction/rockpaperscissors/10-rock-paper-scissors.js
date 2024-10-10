@@ -9,7 +9,6 @@ function updateResult(result, player_move, computer_move) {
         = `You <img src="${player_move}-emoji.png" class="move-icon">
             <img src="${computer_move}-emoji.png" class="move-icon">
             Computer`
-
 }
 
 function updateScore() {
@@ -29,6 +28,8 @@ function pickComputerMove() {
 let isPickingMove = false;
 let intervalID;
 
+
+
 function autoPlay() {
     if (!isPickingMove) { // if ispickingMove is false
         intervalID = setInterval(()=> {
@@ -42,6 +43,8 @@ function autoPlay() {
         isPickingMove = false;
     }
 }
+document.querySelector('.autoplay-button').addEventListener('click', autoPlay)
+
 //rock
 document.querySelector('.js-rock-button').addEventListener('click', () => {
     playGame('Rock');
@@ -54,6 +57,18 @@ document.querySelector('.js-paper-button').addEventListener('click', () => {
 document.querySelector('.js-scissors-button').addEventListener('click', () => {
     playGame('Scissors');
 });
+
+document.body.addEventListener('keydown', (event) => {
+    if (event.key ==='r') {
+        playGame('Rock');
+    }else if (event.key ==='p') {
+        playGame('Paper');
+    }else if(event.key==='s') {
+        playGame('Scissors');
+    }
+});
+
+
 function playGame(player_move) {
     const computer_move = pickComputerMove();
 

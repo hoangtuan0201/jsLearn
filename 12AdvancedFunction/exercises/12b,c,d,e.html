@@ -6,10 +6,10 @@
 </head>
 <body>
 <!--  câu c-->
-  <button class="btn1" onclick="setTimeout(function(){
+  <button class="btn1" onclick="setTimeout(()=>{
     document.querySelector(`.btn1`).innerHTML = 'Finished'
   },1000)">text</button><br>
-    <button onclick="displayTextAndRemove()">Add to cart</button>
+    <button class="btn2">Add to cart</button>
 
     <p class="text"></p>
 
@@ -22,7 +22,8 @@
       }, 3000);
       //d
       const textElement = document.querySelector('.text');
-
+      const btn2Element = document.querySelector('.btn2');
+      btn2Element.addEventListener('click', displayTextAndRemove);
       function displayTextAndRemove() {
           textElement.innerHTML= "Added";
           clearTimeout(timeOut);

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+
+<script>
+   function countPositive(array) {
+       let count=0
+       array.forEach((value)=>{
+           if(value>=0) {
+               count++;
+           }
+       })
+       return count
+   }
+   function addNum(array,num) {
+       return array.map(value => value + num)
+
+   }
+   // console.log(addNum([1,2,3], 3))
+   // console.log(countPositive([1,2,3,-5,-3]))
+
+
+    function removeEgg(foods) {
+       let eggRemove = 0;
+        let newArr = foods.filter((food)=>{
+            if (eggRemove>2) {
+                return food;
+            }else {
+                eggRemove++;
+                return food!== "egg";
+            }
+        })
+        return newArr;
+    }
+
+
+    console.log(removeEgg(["egg", "apple", "egg", "egg","apple"]))
+
+
+
+</script>
+</body>
+</html>

@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c9a09e5-b00e-4cb4-9b86-0f3b010b159a" name="Changes" comment="to dolist grid version">
-      <change afterPath="$PROJECT_DIR$/12AdvancedFunction/exercises/12b,c,d,e.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12AdvancedFunction/exercises/12title.html" afterDir="false" />
+    <list default="true" id="5c9a09e5-b00e-4cb4-9b86-0f3b010b159a" name="Changes" comment="rockpaperscissors">
+      <change afterPath="$PROJECT_DIR$/12AdvancedFunction/advanced exercises/12j.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12AdvancedFunction/advanced exercises/challenges.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/12AdvancedFunction/12AdvanedFunction.html" beforeDir="false" afterPath="$PROJECT_DIR$/12AdvancedFunction/12AdvanedFunction.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/12AdvancedFunction/12toDoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/12AdvancedFunction/12toDoList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12AdvancedFunction/exercises/12b,c,d,e.html" beforeDir="false" afterPath="$PROJECT_DIR$/12AdvancedFunction/exercises/12b,c,d,e.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/12AdvancedFunction/rockpaperscissors/10-rock-paper-scissors.js" beforeDir="false" afterPath="$PROJECT_DIR$/12AdvancedFunction/rockpaperscissors/10-rock-paper-scissors.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/12AdvancedFunction/rockpaperscissors/rock-paper-scisscors.html" beforeDir="false" afterPath="$PROJECT_DIR$/12AdvancedFunction/rockpaperscissors/rock-paper-scisscors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12AdvancedFunction/rockpaperscissors/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/12AdvancedFunction/rockpaperscissors/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12AdvancedFunction/toDoList.html" beforeDir="false" afterPath="$PROJECT_DIR$/12AdvancedFunction/toDoList.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +190,10 @@
       <workItem from="1727788020974" duration="20000" />
       <workItem from="1727792108867" duration="1058000" />
       <workItem from="1727867142985" duration="7632000" />
-      <workItem from="1728116021021" duration="3405000" />
+      <workItem from="1728116021021" duration="5477000" />
+      <workItem from="1728303130931" duration="2510000" />
+      <workItem from="1728389998996" duration="4556000" />
+      <workItem from="1728549121905" duration="1952000" />
     </task>
     <task id="LOCAL-00001" summary="local storage">
       <option name="closed" value="true" />
@@ -453,7 +459,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727718142972</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="rockpaperscissors">
+      <option name="closed" value="true" />
+      <created>1728122236131</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1728122236131</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -490,7 +504,8 @@
     <MESSAGE value="exercises finished" />
     <MESSAGE value="to do list vip pro cua tuan" />
     <MESSAGE value="to dolist grid version" />
-    <option name="LAST_COMMIT_MESSAGE" value="to dolist grid version" />
+    <MESSAGE value="rockpaperscissors" />
+    <option name="LAST_COMMIT_MESSAGE" value="rockpaperscissors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

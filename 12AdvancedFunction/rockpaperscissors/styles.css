@@ -8,7 +8,6 @@ body {
 }
 .header {
     font-size:30px;
-    background-image: linear-gradient(to right, Red , Orange, Yellow, Green, Blue, Indigo, Violet);
     color: white;
     padding: 20px;
 }
