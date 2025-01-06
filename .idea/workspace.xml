@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c9a09e5-b00e-4cb4-9b86-0f3b010b159a" name="Changes" comment="rockpaperscissors">
-      <change afterPath="$PROJECT_DIR$/12AdvancedFunction/advanced exercises/12j.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12AdvancedFunction/advanced exercises/challenges.html" afterDir="false" />
+    <list default="true" id="5c9a09e5-b00e-4cb4-9b86-0f3b010b159a" name="Changes" comment="challenges">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12AdvancedFunction/12AdvanedFunction.html" beforeDir="false" afterPath="$PROJECT_DIR$/12AdvancedFunction/12AdvanedFunction.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12AdvancedFunction/12toDoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/12AdvancedFunction/12toDoList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12AdvancedFunction/exercises/12b,c,d,e.html" beforeDir="false" afterPath="$PROJECT_DIR$/12AdvancedFunction/exercises/12b,c,d,e.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/12AdvancedFunction/rockpaperscissors/10-rock-paper-scissors.js" beforeDir="false" afterPath="$PROJECT_DIR$/12AdvancedFunction/rockpaperscissors/10-rock-paper-scissors.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/12AdvancedFunction/rockpaperscissors/rock-paper-scisscors.html" beforeDir="false" afterPath="$PROJECT_DIR$/12AdvancedFunction/rockpaperscissors/rock-paper-scisscors.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12AdvancedFunction/rockpaperscissors/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/12AdvancedFunction/rockpaperscissors/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12AdvancedFunction/toDoList.html" beforeDir="false" afterPath="$PROJECT_DIR$/12AdvancedFunction/toDoList.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,38 +53,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.08-rockpaperScissor.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.08i.html.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.11a,b,c.html.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.11d,e,f,g,h.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.11i,j,k.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.challenge.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.graph.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.hell.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.toDoList.js.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/admin/WebstormProjects/jsLearn/12AdvancedFunction&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.JavaScript&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\tuan0\\AppData\\Local\\Programs\\WebStorm 2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.08-rockpaperScissor.html.executor": "Run",
+    "JavaScript Debug.08i.html.executor": "Run",
+    "Node.js.11a,b,c.html.js.executor": "Run",
+    "Node.js.11d,e,f,g,h.js.executor": "Run",
+    "Node.js.11i,j,k.js.executor": "Run",
+    "Node.js.challenge.js.executor": "Run",
+    "Node.js.graph.js.executor": "Run",
+    "Node.js.hell.js.executor": "Run",
+    "Node.js.toDoList.js.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/admin/Desktop/javascript-amazon-project-main",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.JavaScript",
+    "ts.external.directory.path": "C:\\Users\\tuan0\\AppData\\Local\\Programs\\WebStorm 2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;sqlserver.localdb&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlserver.localdb"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\admin\WebstormProjects\jsLearn\12AdvancedFunction" />
@@ -101,10 +94,11 @@
       <recent name="C:\js\10-html-css-together" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\WebstormProjects\jsLearn" />
+      <recent name="C:\Users\admin\WebstormProjects\jsLearn\amazonProject" />
       <recent name="C:\js\11-arrays-and-loop\todoListFlexBox" />
       <recent name="C:\js\10-html-css-together\rockpaperscissors" />
       <recent name="C:\js\10-html-css-together" />
-      <recent name="C:\js\10-html-css-together\picture" />
     </key>
   </component>
   <component name="RunManager">
@@ -193,7 +187,15 @@
       <workItem from="1728116021021" duration="5477000" />
       <workItem from="1728303130931" duration="2510000" />
       <workItem from="1728389998996" duration="4556000" />
-      <workItem from="1728549121905" duration="1952000" />
+      <workItem from="1728549121905" duration="4690000" />
+      <workItem from="1728988938490" duration="6000" />
+      <workItem from="1729853887937" duration="411000" />
+      <workItem from="1729854612193" duration="1000" />
+      <workItem from="1730121651385" duration="7000" />
+      <workItem from="1730222782068" duration="2000" />
+      <workItem from="1730223541552" duration="4000" />
+      <workItem from="1730223583064" duration="12000" />
+      <workItem from="1734757344786" duration="576000" />
     </task>
     <task id="LOCAL-00001" summary="local storage">
       <option name="closed" value="true" />
@@ -467,7 +469,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728122236131</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="challenges">
+      <option name="closed" value="true" />
+      <created>1728551168823</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1728551168823</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -505,7 +515,8 @@
     <MESSAGE value="to do list vip pro cua tuan" />
     <MESSAGE value="to dolist grid version" />
     <MESSAGE value="rockpaperscissors" />
-    <option name="LAST_COMMIT_MESSAGE" value="rockpaperscissors" />
+    <MESSAGE value="challenges" />
+    <option name="LAST_COMMIT_MESSAGE" value="challenges" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
