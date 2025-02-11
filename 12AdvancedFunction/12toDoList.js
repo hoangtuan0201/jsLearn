@@ -17,18 +17,29 @@ function renderTodoList() {
         const { name, dueDate } = value; //destructuring property dueDate, name to variable
         const html = `<div>
                                 ${name} at ${dueDate} 
-                                <button class="delete-button" onclick="
-                                    toDoList.splice(${index}, 1); 
-                                    renderTodoList();
-                                    // Whenever we update the todo list, save in localStorage.
-                                    saveToStorage();
-                                ">Delete</button>
+                                <button class="delete-button">Delete</button>
                               </div>`
         todoListHTML += html;
+        saveToStorage();
     });
 
     document.querySelector('.js-todo-list').innerHTML = todoListHTML;
+
+    document.querySelectorAll('.delete-button').forEach((deleteButton, index) => {
+        deleteButton.addEventListener('click', ()=>{
+            toDoList.splice(index, 1);
+            renderTodoList();
+            // Whenever we update the todo list, save in localStorage.
+        })
+    })
 }
+
+
+
+document.querySelector('.js-add-todo-button').addEventListener('click', ()=>{
+    addTask();  // call hàm addTask khi click vào nút thêm
+})
+//querySelector all will take all elements instead of just one
 
 
 function addTask() {
